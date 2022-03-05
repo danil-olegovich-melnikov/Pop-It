@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 25px 20px;
+
+}
+
+.link, .logo {
+    color: black;
+    font-weight: 500;
+}
+
+.top-header {
+    height: 100vh;
+    background-color: #ffbf69;
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+.top-header-nav,
+.bottom-footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-header-nav-list-el {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.top-header-info {
+    padding: 140px 0;
+    color: white;
+}
+
+.top-header-info-title {
+    font-size: 128px;
+}
+
+.top-header-info-btn {
+    display: inline-block;
+    margin-top: 100px;
+    background-color: #cbf3f0;
+    padding: 10px 40px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-section p {
+    margin: 20px auto;
+    width: 940px;
+}
+
+
+.items-section {
+    padding: 75px 0;
+    background-color: #cbf3f0;
+    text-align: center;
+}
+
+.items-section-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.items-section-list-el h3 {
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.items-section-list-el img {
+    width: 200px;
+}
+
+.items-section-list-btn {
+    display: inline-block;
+    margin: 20px;
+    background-color: #ffbf69;
+    padding: 10px 20px;
+}
+
+.game-section {
+    padding: 75px 0;
+    background-image: url("./images/bg-grid.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.game-section-row {
+    display: flex;
+    gap: 50px
+}
+
+.game-section-rules {
+    display: flex;
+    align-items: center;
+    max-width: 750px;
+}
+
+.game-section-rules p {
+    margin: 20px 0;
+}
+
+.bottom-footer {
+    background-color: #333333;
+}
+
+.bottom-footer .link,
+.bottom-footer .logo {
+    color: white;
+}
+
+.bottom-footer .link {
+    font-weight: normal;
+}
+
+.bottom-footer-nav-list {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
